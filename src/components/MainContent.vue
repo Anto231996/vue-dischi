@@ -22,6 +22,7 @@ export default {
     background-color: #2e3a46;
     margin: 20px;
     flex: 0 1 calc(20% - 40px);
+    
     img{
       width: 200px;
       height: 200px;

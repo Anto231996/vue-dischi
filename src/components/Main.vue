@@ -14,21 +14,17 @@ import axios from 'axios';
 
 export default {
   name: 'MainIndex',
-
   components:{
     MainContent
   },
-
   data: function(){
     return{
       albumList: null
     }
   },
-
   created: function(){
     this.getApiAlbum()
   },
-
   methods:{
     getApiAlbum(){
       axios
@@ -48,7 +44,7 @@ export default {
 
 <style scoped lang="scss">
   main{
-    height: calc(100vh - 80px);
+    height: calc(100% - 80px);
     background-color: #1e2d3b;
   }
 </style>
